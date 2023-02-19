@@ -1,5 +1,5 @@
 ---
-- hosts: vm
+- hosts: fileservers
   gather_facts: no
   tasks:
     - name: shutdown

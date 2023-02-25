@@ -1,5 +1,5 @@
 ---
-- hosts: dc_server
+- hosts: av_server
   gather_facts: no
   tasks:
     - name: shutdown
